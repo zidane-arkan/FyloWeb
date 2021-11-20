@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+/*CSS RESET*/
+*,
+*::before,
+*::after,
+section {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+body {
+  background-color: #1c2431;
+  color: white;
+  min-height: 100vh;
+  line-height: 1.5rem;
+}
+a,
+ul,
+li {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+button {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+h1,h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1.2;
+}
+h6{
+    font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+p {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+/*CSS RESET END*/
+
+/*Header CSS Start*/
+header > #navbar-header {
+  display: flex;
+  max-width: 1376px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  margin: auto auto;
+}
+#navbar-header .nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3rem;
+}
+.nav-list li a {
+  transition: 0.4s;
+}
+.nav-list li a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+/*Header CSS End*/
+
+/*Main CSS Start*/
+main {
+  display: flex;
+  max-width: 1903px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cover-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url('../images/bg-curvy-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: bottom;
+}
+#content-box-top {
+  max-width: 720px;
+  max-height: 100vh;
+}
+.content-1 > .content1-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.content1-text > .button-content1 {
+  border: none;
+  width: 20rem;
+  padding: 16px;
+  border-radius: 50px;
+  background-color: #65e2d9;
+}
+.content1-text > #top-box-p {
+  padding: 0 72px;
+  line-height: 1.5;
+}
+#top-box-p > p {
+  font-size: 1.4rem;
+}
+
+.cover-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #181f2a;
+  padding: 10rem 0 19rem 0;
+}
+.cover-bottom > .content-box-bottom {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  gap: 15rem;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+.content-2 > .grid-box {
+  display: grid;
+  max-width: 930px;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+  grid-gap: 8rem 16rem;
+}
+.grid-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  padding: 0 1rem;
+}
+.grid-bottom > h2 {
+  font-size: 1.5rem;
+}
+.content-productive {
+  display: flex;
+  max-width: 1230px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  text-align: center;
+}
+.content-productive-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+.content-productive-text > h2 {
+  font-size: 3rem;
+}
+.content-productive-text > a {
+  display: flex;
+  width: 11rem;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  gap: 0.4rem;
+  text-decoration: none;
+  border-bottom: 1px solid #65e2d9;
+}
+.content-productive-text > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.content-productive-text > a > p {
+  color: #65e2d9;
+}
+
+.comment-bg{
+    max-width: 1200px;
+    display: flex;
+    background-image: url('../images/bg-quotes.png');
+    background-repeat: no-repeat;
+    padding: 30px 15px 0px 15px;
+}
+.content-comment{
+  display: flex;
+  max-width: 1180px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 3rem;
+  background-image: url('../images/bg-quotes.png');
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.content-comment > .comment {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #202a3c ;
+  padding: 2rem 1.6rem 2rem 2rem;
+  width: 360px;
+  height: 200px;
+  box-shadow: 5px 5px 9px rgb(32 42 60 / 40%);
+}
+.comment > .comment-box{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.comment > p{
+  font-size: 1.05rem;
+}
+.comment > .comment-box > img{
+  height: 25px;
+  border-radius: 50px;
+}
+
+.content-started {    
+  position: absolute;
+  max-width: 860px;
+  height: 275px;
+  background-color: #1c2431;
+  box-shadow:  5px 5px 9px rgb(0 0 0 / 30%);
+  border-radius: 15px;
+  bottom: -29rem;
+}
+.content-started > .started-box{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 5rem;
+  text-align: center;
+  gap: 1.8rem;
+}
+.started-box > p {
+  padding: 0 41px;
+}
+.started-box  #email{
+  border: transparent;
+  padding: 1.4rem;
+  width: 472px;
+  border-radius: 30px;
+}
+.started-box #submit{
+    border: transparent;
+    border-radius: 30px;
+    width: 201px;
+    background-color: #65e2d9;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+.started-box > form{
+  display: flex;
+  gap: 2rem;
+}
+/*Main CSS End*/
+
+/*Footer CSS Start*/
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 3rem;
+  height: 100%;
+  padding: 16rem 9rem 8rem;
+}
+footer > #footer-box {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  gap: 5rem;
+}
+.footer-container {
+    display: flex;
+    gap: 14rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer-link{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 1rem;
+}
+.footer-link-1,.footer-link-2{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.footer-link-2{
+  width: 150px;
+  flex-direction: column;
+}
+.footer-link-2  span{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.footer-link-3{
+    width: 100px;
+}
+.footer-link-a{
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  gap: 2rem;
+}
+.footer-link > a {
+  font-size: 1.16rem;
+  font-weight: 400;
+}
+.footer-link .logo-svg {
+  transition: 0.2s;
+}
+.footer-link .logo-svg:hover {
+  fill: #65e2d9;
+}
+/*Footer CSS End*/
