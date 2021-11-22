@@ -276,6 +276,9 @@ main {
   text-align: center;
   gap: 1.8rem;
 }
+#submit{
+  cursor: pointer;
+}
 .started-box > p {
   padding: 0 41px;
 }
@@ -320,7 +323,7 @@ footer > #footer-box {
 }
 .footer-container {
     display: flex;
-    gap: 14rem;
+    gap: 10rem;
     flex-direction: row;
     flex-wrap: wrap;
 }
