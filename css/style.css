@@ -91,6 +91,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: ease-in .5s;
 }
 .cover-top {
   display: flex;
@@ -318,6 +319,7 @@ footer > #footer-box {
   align-items: center;
   text-align: left;
   gap: 5rem;
+  padding-left: 13rem;
 }
 .footer-container {
     display: flex;
