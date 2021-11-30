@@ -14,6 +14,7 @@ html {
   font-size: 14px;
 }
 body {
+  width: 100%;
   background-color: #1c2431;
   color: white;
   min-height: 100vh;
@@ -86,7 +87,7 @@ header > #navbar-header {
 /*Main CSS Start*/
 main {
   display: flex;
-  max-width: 1903px;
+  max-width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -211,24 +212,21 @@ main {
   color: #65e2d9;
 }
 
-.comment-bg{
-    max-width: 1200px;
-    display: flex;
-    background-image: url('../images/bg-quotes.png');
-    background-repeat: no-repeat;
-    padding: 30px 15px 0px 15px;
+.comment-bg {
+  max-width: 1200px;
+  padding: 30px 15px 0px 15px;
 }
-.content-comment{
+.content-comment {
   display: flex;
-  max-width: 1180px;
+  max-width: 100%;
   align-items: center;
   align-content: center;
   justify-content: center;
   flex-direction: row;
   gap: 3rem;
-  background-image: url('../images/bg-quotes.png');
-  background-position: left;
+  background-image: url(../images/bg-quotes.png);
   background-repeat: no-repeat;
+  padding: 2rem 0rem 3rem 1rem;
 }
 .content-comment > .comment {
   display: flex;
@@ -323,6 +321,7 @@ footer > #footer-box {
 }
 .footer-container {
     display: flex;
+    width: 100%;
     gap: 10rem;
     flex-direction: row;
     flex-wrap: wrap;

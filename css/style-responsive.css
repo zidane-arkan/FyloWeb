@@ -1,0 +1,108 @@
+@media screen and (max-width: 1024px){
+h1{
+    font-size: 1.9rem;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+a, ul, li {
+    font-size: 0.9rem;
+}
+
+/*Header*/
+header > #navbar-header {
+    padding: 2rem;
+}
+#logo-icon > .logo-header {
+    width: 70%;
+}
+#navbar-header .nav-list {
+    gap: 1rem;
+}
+/*Header End*/
+
+.content1-text > .button-content1 {
+    width: 15rem;
+}
+.content1-text > #top-box-p {
+    padding: 0 1rem;
+    line-height: 1.5;
+}
+.content-2 > .grid-box {
+    display: flex;
+    max-width: 90%;
+    align-items: center;
+    flex-direction: column;
+}
+.content-productive-text > h2 {
+    font-size: 2.5rem;
+    padding-right: 34rem;
+}
+.content-productive {
+    flex-direction: column;
+}
+.content-productive-text {
+    padding: 0 10rem 0 5rem;
+}
+#top-box-p > p {
+    font-size: 1.1rem;
+}
+.content-comment {
+    flex-direction: column;
+    padding: 2rem 0rem 0 3rem;
+}
+.content-started {
+    max-width: 92%;
+}
+.content-productive-text > h2 {
+    font-size: 2.5rem;
+    padding-right: 10rem;
+}
+
+.content-started {
+    max-width: 92%;
+}
+.content-started > .started-box {
+    padding: 0;
+    text-align: center;
+    gap: 1.8rem;
+}
+.started-box > form {
+    width: 87%;
+    gap: 1rem;
+    flex-direction: column;
+}
+.started-box #email {
+    padding: 1rem;
+    width: 100%;
+}
+
+.started-box #submit {
+    width: 100%;
+    padding: 1rem;
+}
+
+/*Footer Responsive*/
+footer > #footer-box {
+    align-items: flex-start;
+    text-align: left;
+}
+.footer-container {
+    gap: 2rem;
+    flex-direction: column;
+}
+.footer-link-2 {
+    gap: 2rem;
+}
+.footer-link-3 {
+    height: 100%;
+    padding-top: 4rem;
+}
+
+.footer-link-a {
+    margin-inline: auto auto;
+}
+}
