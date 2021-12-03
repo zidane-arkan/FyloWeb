@@ -112,3 +112,78 @@ footer > #footer-box {
     height: 42px;
 }
 }
+
+@media screen and (max-width : 500px){
+h1 {
+    font-size: 1.9rem;
+    line-height: 1.4;
+}
+h2 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 0.9rem;
+}
+header > #navbar-header {
+    padding: 2.5rem 2rem;
+}
+#logo-icon > .logo-header {
+    width: 75%;
+    margin: 0;
+}
+#logo-icon{
+    text-align: left;
+}
+.nav-list > a{
+    font-size: 0.8rem;
+}
+.cover-top  img,.content-productive-img{
+    display: block;
+    max-width: 90%;
+    margin-inline: auto auto;
+}
+#logo-icon > .logo-header {
+    width: 65%;
+    margin: 0;
+}
+.cover-top {
+  background-image: url('../images/bg-curvy-mobile.svg');
+}
+.content-1 > .content1-text {
+    padding: 30px 2rem;
+}
+.cover-bottom {
+    padding: 7rem 0 24rem 0;
+}
+.cover-bottom > .content-box-bottom {
+    gap: 10rem;
+}
+.content-comment {
+    padding: 2rem 0rem 0 2rem;
+}
+.content-comment > .comment {
+    width: 340px;
+}
+.comment > p {
+    font-size: 0.9rem;
+}
+.content-productive-text {
+    padding: 0 1rem 0 1rem;
+}
+.content-started {
+    max-width: 92%;
+    height: 12%;
+    bottom : -33rem;
+}
+.started-box #email,.started-box #submit {
+    padding: 1rem;
+    width: 100%;
+}
+
+footer {
+    padding: 14rem 2rem 8rem;
+}
+.footer-link-1 > span:first-child{
+    width: 18%;
+}
+}
